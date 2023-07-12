@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      width: 600px;
+    }
+
+    button {
+      height: 30px;
+      width: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <img id="searchImage" alt="No Image" />
+
+  <div> <input type="checkbox" id="isClick" > click <input type="file" id="searchImageInput" name="file" />  </div>
+  <div id="log">选择点击的元素</div>
+  <div><input type="text" id="simulateText" placeholder="模拟按键,光标进入后按键模拟" readonly> </div>
+  <button type="button" id="clear">清除高亮</button>
+  <script type="module" src="./index.js"></script>
+  <iframe id="sandbox" src="./sandbox/sandbox.html" style="display: none;"></iframe>
+</body>
+
+</html>
